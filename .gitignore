@@ -6,13 +6,16 @@ __pycache__/
 *.pyo
 
 
+.env
+.env.*
+
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
 
 venv/
 .venv/
-env/
-
-.vscode/
-.DS_Store
-.streamlit/secrets.toml
